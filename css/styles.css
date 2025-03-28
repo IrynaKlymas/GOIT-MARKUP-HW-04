@@ -182,6 +182,8 @@ img {
 }
 
 .hero {
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 188px;
     padding-bottom: 188px;
     height: 600px;
@@ -195,6 +197,10 @@ img {
     background-position: center center;
     background-size: cover;
     color: #fff;
+}
+
+.hero::before {
+    position: absolute;
 }
 
 .hero-title {
