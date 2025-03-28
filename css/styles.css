@@ -482,7 +482,12 @@ img {
 }
 
 .container-footer {
-    display: flex
+    display: flex;
+    align-items: baseline;
+}
+
+.logo-footer {
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -517,7 +522,8 @@ img {
 .social-media {
     font: 500 16px / 1.5 "Roboto", sans-serif;
     letter-spacing: 0.02em;
-    color: #fff;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 .media {
