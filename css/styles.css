@@ -187,7 +187,6 @@ img {
     padding-top: 188px;
     padding-bottom: 188px;
     height: 600px;
-    padding: 40px;
     max-width: 1440px;
     background-repeat: no-repeat;
     display: flex;
@@ -261,7 +260,14 @@ img {
 
 .goals-item {
     flex-basis: calc((100% - 72px) / 4);
-    border: 1px solid #8e8f99;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    width: 264px;
+    height: 224px;
+    border: 1px solid #000;
     background-color: #ffffff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
@@ -270,7 +276,10 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 264px;
     height: 112px;
+    margin-left: -1px;
+    margin-top: -1px;
     background-color: #f4f4fd;
     border-radius: 4px;
     border: 1px solid #8e8f99;
