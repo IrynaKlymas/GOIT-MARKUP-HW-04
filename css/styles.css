@@ -375,6 +375,18 @@ img {
     justify-content: center;
 }
 
+.team-icon-link:hover {
+    background-color: #404bbf;
+}
+
+.team-icon-link:focus {
+    background-color: #404bbf;
+}
+
+.team-icon {
+    fill: #f4f4fd;
+}
+
 /*portfolio*/
 
 .portfolio {
