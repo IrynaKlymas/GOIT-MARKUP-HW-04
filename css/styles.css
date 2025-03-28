@@ -272,12 +272,10 @@ img {
 }
 
 .icon-feature {
-    padding: 24px 100px;
     width: 264px;
-
 }
 
-.goal-title {
+` .goal-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
