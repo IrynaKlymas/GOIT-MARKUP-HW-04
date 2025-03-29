@@ -277,7 +277,7 @@ img {
     margin-bottom: 8px;
 }
 
-.icon-feature {}
+/*.icon-feature {}*/
 
 .goal-title {
     font-weight: 500;
@@ -467,9 +467,10 @@ img {
 }
 
 .portfolio-bottom {
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
 }
 
 .name-service {
@@ -529,7 +530,7 @@ img {
     max-width: 264px;
 }
 
-.footer-media {}
+/*.footer-media {}*/
 
 .social-media {
     font: 500 16px / 1.5 "Roboto", sans-serif;
