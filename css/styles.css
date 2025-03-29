@@ -265,8 +265,6 @@ img {
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
-    width: 264px;
-    height: 224px;
     border: 1px solid #000;
     background-color: #ffffff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
@@ -276,9 +274,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 264px;
     height: 112px;
     margin-left: -1px;
+    margin-right: -1px;
     margin-top: -1px;
     background-color: #f4f4fd;
     border-radius: 4px;
@@ -286,9 +284,7 @@ img {
     margin-bottom: 8px;
 }
 
-.icon-feature {
-    width: 264px;
-}
+.icon-feature {}
 
 .goal-title {
     font-weight: 500;
@@ -339,10 +335,6 @@ img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 32px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 428px;
 }
 
 .team-bottom {
@@ -351,8 +343,6 @@ img {
     justify-content: center;
     flex-direction: column;
     /*gap: 8px;*/
-    width: 232px;
-    height: 104px;
     padding: 32px 0 32px;
 }
 
@@ -383,8 +373,6 @@ img {
     justify-content: center;
     flex-direction: row;
     gap: 24px;
-    width: 232px;
-    height: 40px;
 }
 
 .team-icons-list {
